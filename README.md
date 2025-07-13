@@ -7,5 +7,11 @@ To reproduece the issue, follow these steps:
 5. added   `plugins: [react(),tailwindcss(),]` to `vite.config.ts`
 7. added component `Component.tsx` file
 8. added `Component.module.css` file 
+9. run `npm run dev`
 
 The additional semicolon is causing the error
+
+
+# To install
+
+You can clone the repo and do `npm install` (node 24.x.x)
